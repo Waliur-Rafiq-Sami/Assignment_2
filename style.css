@@ -34,7 +34,7 @@
 }
 /* banner */
 .banner {
-  background: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/nanner.png), no-repeat;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url(./Images/nanner.png), no-repeat;
   background-position: center;
   background-size: cover;
   margin-top: 50px;
@@ -391,13 +391,13 @@ footer {
   font-weight: 600;
 }
 .card1 {
-  background-image: url(/Images/Group\ 39.png);
+  background-image: url(./Images/Group\ 39.png);
 }
 .card2 {
-  background-image: url(/Images/Group\ 40.png);
+  background-image: url(./Images/Group\ 40.png);
 }
 .card3 {
-  background-image: url(/Images/Group\ 39.png);
+  background-image: url(./Images/Group\ 39.png);
 }
 /* Deals_Discounts */
 /* Deals_Discounts */
