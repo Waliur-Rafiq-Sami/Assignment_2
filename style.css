@@ -46,9 +46,6 @@ a {
 .btn:hover {
   opacity: 0.88;
 }
-
-/* ----------------------------- */
-/* ----------------------------- */
 /* ----------------------------- */
 /* Header Style Starts  */
 .logo {
@@ -236,12 +233,6 @@ a {
 .card_container_2 .card_number3 {
   margin: 0 auto;
 }
-/* Why Choose Us SEction End */
-/* Why Choose Us SEction End */
-/* Why Choose Us SEction End */
-/* Why Choose Us SEction End */
-/* Why Choose Us SEction End */
-
 /* Simple Perfect Place SEction Starts */
 .place_container {
   display: flex;
@@ -529,8 +520,8 @@ footer {
     max-width: 100%;
   }
   .place_contant {
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .card2 {
     padding-right: 40px;
