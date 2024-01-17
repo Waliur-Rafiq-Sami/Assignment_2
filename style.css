@@ -1,3 +1,55 @@
+/* Universal Style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+p {
+  line-height: 26px;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+/* Font-wight-color */
+.ColoR_Black_FZ40_800 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.ColoR_gray_FZ16_400 {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.ColoR_Black_FZ16_400 {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Button  */
+.btn {
+  border-radius: 8px;
+  color: #fff;
+  background: #ff5400;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.88;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* ----------------------------- */
 /* Header Style Starts  */
 .logo {
   display: flex;
@@ -400,13 +452,47 @@ footer {
   background-image: url(./Images/Group\ 39.png);
 }
 /* Deals_Discounts */
+.absolut {
+  display: none;
+}
 /* Deals_Discounts */
 @media screen and (max-width: 576px) {
   * {
-    font-size: 10px;
+    font-size: 20px;
+    padding: 1px;
   }
-  .ColoR_Black_FZ16_400 {
-    font-size: 14px;
+  h1,
+  h2 {
+    font-size: 30px;
+  }
+  .banner_select select option,
+  input {
+    text-align: center;
+  }
+  .banner,
+  .banner_contant {
+    padding: 0;
+    margin: 0;
+  }
+  .place_contant,
+  .newspaper_container {
+    margin-top: -120px;
+  }
+  .banner_select {
+    margin-top: -35px;
+    display: inline-block;
+  }
+  .newspaprt_image {
+    margin-top: 30px;
+    margin-bottom: -60px;
+  }
+  .place_img img,
+  .newspaprt_image img,
+  .newspaper_contant {
+    width: 100%;
+  }
+  .ColoR_Black_FZ40_800 {
+    font-size: 25px;
   }
   .tours .ColoR_Black_FZ40_800 {
     font-size: 20px;
@@ -438,9 +524,24 @@ footer {
   .banner_select {
     flex-direction: column;
   }
-  #Why_Choose_Us,
-  #Choose_Your_Destination,
-  #Deals_Discounts {
-    display: none;
+
+  .Deals_Discounts_card1 .card_icon {
+    max-width: 100%;
+  }
+  .place_contant {
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  .card2 {
+    padding-right: 40px;
+  }
+  .Flex_item img {
+    width: 100%;
+  }
+  .absolut {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 50px;
   }
 }
